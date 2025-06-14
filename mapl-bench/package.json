@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node --import jiti/register index.ts"
+  },
+  "dependencies": {
+    "@mapl/router": "0.4.15"
+  }
+}

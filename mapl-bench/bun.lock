@@ -1,0 +1,13 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "dependencies": {
+        "@mapl/router": "0.4.15",
+      },
+    },
+  },
+  "packages": {
+    "@mapl/router": ["@mapl/router@0.4.15", "", {}, "sha512-QK+nfAZ2LMlXwJ+e6SEEaiEzJB4LqMW+DE/9CN+d5HJI+xEyu0h6Qqdkph4MltwV5jXe884Cbu/syW8KDglUoA=="],
+  }
+}
