@@ -81,7 +81,7 @@ function compileRouteMatch(
   matchAll?: boolean,
 ): string {
   // Ignore trailing slash
-  let str = `${matchAll ? `let r=[];` : ""}if(p[p.length-1]==='/')p=p.slice(0,-1)||'/';`;
+  let str = `${matchAll ? `let r=[];` : ""}if(p.length>1&&p[p.length-1]==='/')p=p.slice(0,-1);`;
 
   const staticNodes = new Set<Node>();
 
